@@ -31,7 +31,9 @@ nav ul {
     margin-bottom: 0
 }
 
-nav li {
+/* Espacement entre les catégories du header et de la galerie */
+nav li,
+.nav li {
     padding-inline: 10px
 }
 
@@ -100,7 +102,7 @@ nav a {
     padding-block: 2em
 }
 
-.gallery nav {
+.gallery .nav {
     justify-content: center
 }
 
