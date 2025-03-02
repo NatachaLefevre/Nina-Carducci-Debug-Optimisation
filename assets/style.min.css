@@ -46,6 +46,11 @@ nav a {
     width: 20px
 }
 
+/* Force le masquage du texte des flèches, sinon Wave le reconnait comme une erreur de contraste */
+.visually-hidden{
+    visibility: hidden;
+}
+
 #about {
     display: flex;
     background-color: #F6D2B8;
@@ -108,7 +113,7 @@ nav a {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    color: #fff;
+    color: black;
     background-color: #BEB45A;
     border-radius: 0
 }
